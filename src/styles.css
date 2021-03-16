@@ -1,5 +1,96 @@
-h1 {
-  color: purple;
-  font-size: 50px;
+body {
+  font-family: "Raleway", sans-serif;
   text-align: center;
+  margin: 60px auto;
+  max-width: 500px;
+  min-width: 320px;
+  position: relative;
+}
+
+h1 {
+  font-weight: 400;
+  color: #fff;
+  text-emphasis: capitalize;
+}
+
+h2 {
+  font-style: italic;
+  color: #fff;
+}
+
+form {
+  margin-bottom: 30px;
+}
+input {
+  border-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  color: #fff;
+  line-height: 2rem;
+}
+.app {
+  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  padding: 40px 30px 40px 30px;
+  box-shadow: 5px 5px 10px #868f96;
+}
+
+#temperature {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#changeCity {
+  border-color: rgb(175, 9, 125);
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: bolder;
+  transition: all 250ms ease-in-out;
+}
+
+#changeCity:hover {
+  background-color: #fd31d1;
+}
+
+#currentLocation {
+  border-color: rgb(175, 9, 125);
+  color: rgba(0, 0, 0, 0.4);
+  transition: all 250ms ease-in-out;
+}
+
+#currentLocation:hover {
+  background-color: #fd31d1;
+}
+
+#forecast {
+  text-align: left;
+  padding-right: 40px;
+}
+
+#icon {
+  text-align: center;
+  font-size: 1.5rem;
+}
+#high {
+  font-size: small;
+}
+
+#low {
+  font-size: small;
+  opacity: 0.4;
+}
+#celsius-link {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+#fahrenheit-link {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 25px;
 }
